@@ -6,7 +6,6 @@ let Album = new Schema({
   albumCover: String,
   songs: [String],
   year: Number,
-  top100: Boolean,
 })
 
 export default mongoose.model("albums", Album)
