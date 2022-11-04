@@ -45,6 +45,23 @@ export const getArtistName = async (req, res) => {
   }
 }
 
+export const getArtistGenre = async (req, res) => {
+  try {
+    const { genre } = req.params
+    const artist = await Artist.find({genre: genre})
+
+    if (artist) {
+      return res.json(artist)
+    }
+
+    res.status(404).json({message: "Artist not found!"})
+  
+  } catch (error) {
+    console.error(error)
+    res.status(500).json({error: error.message})
+  }
+}
+
 export const createArtist = async (req, res) => {
   try {
     const artist = new Artist(req.body)
