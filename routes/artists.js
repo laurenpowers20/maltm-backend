@@ -14,4 +14,12 @@ router.put("/artist/:name", controllers.updateArtistName)
 router.delete("/:id", controllers.deleteArtist)
 router.delete("/artist/:name", controllers.deleteArtistName)
 
+// Albums
+
+router.get("/albums/:title", controllers.getAlbums)
+router.get("/album/:title", controllers.getAlbumTitle)
+router.post("/album/:title", controllers.createAlbum)
+router.put("/album/:title", controllers.updateAlbumTitle)
+router.delete("/album/:title", controllers.deleteAlbumName)
+
 export default router
