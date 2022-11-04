@@ -1,16 +1,80 @@
 [
- { 
-  "name": "String",
-  "artistImg": "String",
-  "genre": "[String]",
-  "albums": [
-    {
-    "title": "String",
-    "albumCover": "String",
-    "songs": "[String]",
-    "year": "Number",
-    "top100": "Boolean"
+  {
+    "name": "Nesta",
+    "artistImg": "https://kazimagazine.com/wp-content/uploads/2021/03/Bkr2Go_JSXkKqHYYkAA3HJ-rkzTP7xBAFk7-FNe-D6DGhs03Ug-izb4RFC6E5zThAyAC_smhBNgyOtK4GF4YCO4ORQkGTktcRK4vk5hrsvn9Bao7p7HCPkOzEZsx9sfcVAbbUtPX.png",
+    "genre": ["R&B", "Soul"],
+    "albums": [
+      {
+        "title": "Hope It Gets Better",
+        "albumCover": "https://m.media-amazon.com/images/I/41EH1ezsEwL._UXNaN_FMjpg_QL85_.jpg",
+        "songs": ["The Alchemist", "Brag", "Coming Over", "Poison", "Hope It Gets Better", "City of Angels (with Mereba)", "Already There", "Proper", "Jah Knows (feat. Kyra)","More Than I Deserve", "Mama Don't Cry"],
+        "year": "2022",
+        "top100": "Boolean"
+      }
+    ]
+  },
+  {
+    "name": "O'Death",
+    "artistImg": "https://i.scdn.co/image/e044f7fba852d8c50949ce8dd5c7d27a9f4f4e34",
+    "genre": ["Alternative", "Rock"],
+    "albums": [
+      {
+        "title": "Outside",
+        "albumCover": "https://f4.bcbits.com/img/0006693756_10.jpg",
+        "songs": ["Bugs", "Ghost Head", "Alamar", "Black Dress", "Ourselves", "Look at the Sun", "Howling Through", "Don't Come Back", "Pushing Out", "Back of the Garden", "Already There", "The Lake Departed"],
+        "year": "2011",
+        "top100": "Boolean"
+      },
+      {
+        "title": "Head Home",
+        "albumCover": "https://upload.wikimedia.org/wikipedia/en/b/b2/Head_Home_Album_Art.jpeg",
+        "songs": ["Down to Rest", "Adelita", "Allie Mae Reynolds", "The Crab Apple Switch", "O Lee O", "Busted Old Church", "Travelin Man", "Face Mask", "Only Daughter", "Ground Stump", "Rickety Fence Teeth", "TAll the World", "Jesus Look Down", "Nathaniel", "Gas Can Row"],
+        "year": "2011",
+        "top100": "Boolean"
+      }
+    ]
+  },
+  {
+    "name": "Nesha",
+    "artistImg": "String",
+    "genre": ["R&B", "Soul"],
+    "albums": [
+      {
+        "title": "String",
+        "albumCover": "String",
+        "songs": ["String"],
+        "year": "Number",
+        "top100": "Boolean"
+      }
+    ]
+  },
+  {
+    "name": "Nesha",
+    "artistImg": "String",
+    "genre": ["R&B", "Soul"],
+    "albums": [
+      {
+        "title": "String",
+        "albumCover": "String",
+        "songs": ["String"],
+        "year": "Number",
+        "top100": "Boolean"
+      }
+    ]
+  },
+  {
+    "name": "Nesha",
+    "artistImg": "String",
+    "genre": ["R&B", "Soul"],
+    "albums": [
+      {
+        "title": "String",
+        "albumCover": "String",
+        "songs": ["String"],
+        "year": "Number",
+        "top100": "Boolean"
+      }
+    ]
   }
-]
-}
+ 
 ]
