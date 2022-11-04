@@ -1,0 +1,16 @@
+[
+ { 
+  "name": "String",
+  "artistImg": "String",
+  "genre": "[String]",
+  "albums": [
+    {
+    "title": "String",
+    "albumCover": "String",
+    "songs": "[String]",
+    "year": "Number",
+    "top100": "Boolean"
+  }
+]
+}
+]
