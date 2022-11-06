@@ -138,8 +138,8 @@
       "Let Us Be Alone Again",
       "Air is Water",
       "I Call to You in Dreams",
-      "You'll Be Forever Nameless (Pts. 1 & 2",
-      "You'll Be Forever Nameless (Pts. 3-5",
+      "You'll Be Forever Nameless (Pts. 1 & 2)",
+      "You'll Be Forever Nameless (Pts. 3-5)",
       "Center of Gravity",
       "Reassess",
       "Pleo"
@@ -378,5 +378,44 @@
       "Space Ho's (Madlib Remix)"
     ],
     "year": 2005
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77eef",
+    "title": "Tea for the Tillerman",
+    "artist": "Cat Stevens",
+    "albumCover": "https://upload.wikimedia.org/wikipedia/en/0/0e/Tea_for_the_Tillerman.jpeg",
+    "songs": [
+      "Where Do the Children Play?",
+      "Hard Headed Woman",
+      "Wild World",
+      "Sad Lisa",
+      "Miles from Nowhere",
+      "But I Might Die Tonight",
+      "Longer Boats",
+      "Into White",
+      "On the Road to Find Out",
+      "Father and Son",
+      "Tea for the Tillerman"
+    ],
+    "year": 1970
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ef0",
+    "title": "Teaser And The Firecat",
+    "artist": "Cat Stevens",
+    "albumCover": "https://m.media-amazon.com/images/I/51mblTANuLL._SY580_.jpg",
+    "songs": [
+      "The Wind",
+      "Rubylove",
+      "If I Laugh",
+      "Changes IV",
+      "How Can I Tell You",
+      "Tuesday's Dead",
+      "Morning Has Broken",
+      "Bitterblue",
+      "Moonshadow",
+      "Peace Train"
+    ],
+    "year": 1971
   }
 ]

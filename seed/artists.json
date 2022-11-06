@@ -80,5 +80,16 @@
     "albums": [
         "63657068a3acd2f3d5e77eec", "63657068a3acd2f3d5e77eed"
     ]
+},
+  {
+    "_id": "63657068a3acd2f3d5e77eee",
+    "name": "Cat Stevens",
+    "artistImg": "https://i.ytimg.com/vi/bP6B9HttRI8/hqdefault.jpg",
+    "genre": [
+        "Pop", "Rock"
+    ],
+    "albums": [
+        "63657068a3acd2f3d5e77eef", "63657068a3acd2f3d5e77ef0"
+    ]
 }
 ]
