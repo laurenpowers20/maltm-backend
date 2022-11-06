@@ -58,5 +58,16 @@
     "artist img": "https://wallsdesk.com/wp-content/uploads/2016/11/little-mix-Photos.jpg",
     "genre": "Pop",
     "albums": ["63657068a3acd2f3d5e77ee8"]
-  }
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ee9",
+    "name": "Back to Yours",
+    "artistImg": "https://risingartistsblog.com/wp-content/uploads/2022/05/back2yours.jpg",
+    "genre": [
+        "Rock"
+    ],
+    "albums": [
+        "63657068a3acd2f3d5e77eea"
+    ]
+}
 ]

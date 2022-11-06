@@ -11,6 +11,22 @@ export const getAlbums = async (req, res) => {
   }
 }
 
+export const getAlbum = async (req, res) => {
+  try {
+    const { id } = req.params
+    const album = await Album.findById(id)
+
+    if (album) {
+      return res.json(album)
+    }
+
+    res.status(404).json({message: "Album not found!"})
+  
+  } catch (error) {
+    console.error(error)
+    res.status(500).json({error: error.message})
+  }
+}
 
 export const getAlbumTitle = async (req, res) => {
   try {
