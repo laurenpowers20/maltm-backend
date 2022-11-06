@@ -417,5 +417,83 @@
       "Peace Train"
     ],
     "year": 1971
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ef2",
+    "title": "Motions",
+    "artist": "Jeremy Zucker",
+    "albumCover": "https://i.scdn.co/image/ab67616d0000b2736eb668bd71d464cf1862b807",
+    "songs": [
+      "Heavy",
+      "Keep My Head Afloat",
+      "IDK Love",
+      "Sinking",
+      "Shut Your Mouth",
+      "Stay Quiet",
+      "Man Down",
+      "Upside Down (feat. Daniel James)"
+    ],
+    "year": 2017
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ef3",
+    "title": "love is not dying (Deluxe Version)",
+    "artist": "Jeremy Zucker",
+    "albumCover": "https://images.genius.com/785de1886e14b0d370452010da5baea0.1000x1000x1.jpg",
+    "songs": [
+      "still",
+      "we're f****d, it's fine",
+      "somebody loves you",
+      "orchid",
+      "lakehouse",
+      "good for her",
+      "not ur friend",
+      "full stop",
+      "julia",
+      "hell or flying",
+      "always i'll care",
+      "brooks",
+      "oh, mexico",
+      "you were good to me (bonus track)",
+      "comethru (bonus track)"
+    ],
+    "year": 2020
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ef5",
+    "title": "Hypnagogia",
+    "artist": "brakence",
+    "albumCover": "https://f4.bcbits.com/img/a3118353569_10.jpg",
+    "songs": [
+      "Wake",
+      "Firstego",
+      "Trying",
+      "Secondport",
+      "lakehouse",
+      "Hippie",
+      "Thirdquarter",
+      "Warm"
+    ],
+    "year": 2018
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ef6",
+    "title": "punk2",
+    "artist": "brakence",
+    "albumCover": "https://i1.sndcdn.com/artworks-Dc5E5chFyR3b2Q5W-fnNSOA-t500x500.jpg",
+    "songs": [
+      "tonight's no good how about wednesday oh you're in dallas on wednesday oh ok well then let's just not see each other for 8 months and it doesn't matter at all",
+      "dropout",
+      "fwb",
+      "f*****y",
+      "nosering (feat. 50landing)",
+      "drank 3 of my parents' craft beers to make eye contact with you",
+      "rosier/punk2",
+      "prozac",
+      "ginger tea",
+      "brakence 2.0 freestyle (feat. Majent)",
+      "sauceintherough (bonus track)"
+    ],
+    "year": 2020
   }
 ]

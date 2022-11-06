@@ -63,33 +63,35 @@
     "_id": "63657068a3acd2f3d5e77ee9",
     "name": "Back to Yours",
     "artistImg": "https://risingartistsblog.com/wp-content/uploads/2022/05/back2yours.jpg",
-    "genre": [
-        "Rock"
-    ],
-    "albums": [
-        "63657068a3acd2f3d5e77eea"
-    ]
-},
+    "genre": ["Rock"],
+    "albums": ["63657068a3acd2f3d5e77eea"]
+  },
   {
     "_id": "63657068a3acd2f3d5e77eeb",
     "name": "MF DOOM",
     "artistImg": "https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2021/10/madison-grosvenor-mf-doom-arts.png?fit=2400%2C1600&ssl=1",
-    "genre": [
-        "Hip-Hop", "Rap"
-    ],
-    "albums": [
-        "63657068a3acd2f3d5e77eec", "63657068a3acd2f3d5e77eed"
-    ]
-},
+    "genre": ["Hip-Hop", "Rap"],
+    "albums": ["63657068a3acd2f3d5e77eec", "63657068a3acd2f3d5e77eed"]
+  },
   {
     "_id": "63657068a3acd2f3d5e77eee",
     "name": "Cat Stevens",
     "artistImg": "https://i.ytimg.com/vi/bP6B9HttRI8/hqdefault.jpg",
-    "genre": [
-        "Pop", "Rock"
-    ],
-    "albums": [
-        "63657068a3acd2f3d5e77eef", "63657068a3acd2f3d5e77ef0"
-    ]
-}
+    "genre": ["Pop", "Rock"],
+    "albums": ["63657068a3acd2f3d5e77eef", "63657068a3acd2f3d5e77ef0"]
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ef1",
+    "name": "Jeremy Zucker",
+    "artistImg": "https://upload.wikimedia.org/wikipedia/commons/d/da/Jeremy_Zucker_Supercuts.png",
+    "genre": ["Pop"],
+    "albums": ["63657068a3acd2f3d5e77ef2", "63657068a3acd2f3d5e77ef3"]
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ef4",
+    "name": "brakence",
+    "artistImg": "https://i.redd.it/o1h0rcdjbsj51.jpg",
+    "genre": ["Pop", "Electronic"],
+    "albums": ["63657068a3acd2f3d5e77ef5", "63657068a3acd2f3d5e77ef6"]
+  }
 ]
