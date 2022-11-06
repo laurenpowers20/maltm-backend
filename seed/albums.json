@@ -57,7 +57,7 @@
       "Only Daughter",
       "Ground Stump",
       "Rickety Fence Teeth",
-      "TAll the World",
+      "All the World",
       "Jesus Look Down",
       "Nathaniel",
       "Gas Can Row"
@@ -328,5 +328,55 @@
       "Merry Christmas and Good Night (Bonus Track)"
     ],
     "year": 2020
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77eec",
+    "title": "MM..FOOD (Deluxe Edition)",
+    "artist": "MF DOOM",
+    "albumCover": "https://upload.wikimedia.org/wikipedia/en/8/8a/Mmfood.jpg",
+    "songs": [
+      "Beef Rap",
+      "Hoe Cakes",
+      "Potholderz (feat. Count Bass D)",
+      "One Beer",
+      "Deep Fried Frenz",
+      "Poo-Putt Platter",
+      "Fillet-O-Rapper",
+      "Gumbo",
+      "Fig Leaf Bi-Carbonate",
+      "Kon Karne",
+      "Guinnesses (feat. Angelika & 4ize)",
+      "Kon Queso",
+      "Rapp Snitch Knishes (feat. Mr Fantastik)",
+      "Vomitspit",
+      "Kookies",
+      "Hoe Cakes (Jake One Remix)"
+    ],
+    "year": 2004
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77eed",
+    "title": "The Mouse & the Mask",
+    "artist": "MF DOOM",
+    "albumCover": "https://upload.wikimedia.org/wikipedia/en/1/1e/Dangerdoom.jpg",
+    "songs": [
+      "El Chupa Nibre",
+      "Sofa King",
+      "The Mask (feat. Ghostface Killah)",
+      "Perfect Hair",
+      "Benzi Box (feat. CeeLo Green)",
+      "Old School Rules (feat. Talib Kweli)",
+      "A.T.H.F. (Aqua Teen Hunger Force)",
+      "Basket Case",
+      "No Names (feat. Money Mark)",
+      "Crosshairs",
+      "Mince Meat",
+      "Vats of Urine",
+      "Space Hos",
+      "Bada Bing",
+      "Sofa King (Danger Mouse Remix)",
+      "Space Ho's (Madlib Remix)"
+    ],
+    "year": 2005
   }
 ]

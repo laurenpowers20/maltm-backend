@@ -69,5 +69,16 @@
     "albums": [
         "63657068a3acd2f3d5e77eea"
     ]
+},
+  {
+    "_id": "63657068a3acd2f3d5e77eeb",
+    "name": "MF DOOM",
+    "artistImg": "https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2021/10/madison-grosvenor-mf-doom-arts.png?fit=2400%2C1600&ssl=1",
+    "genre": [
+        "Hip-Hop", "Rap"
+    ],
+    "albums": [
+        "63657068a3acd2f3d5e77eec", "63657068a3acd2f3d5e77eed"
+    ]
 }
 ]
