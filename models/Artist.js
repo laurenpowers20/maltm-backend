@@ -1,16 +1,13 @@
 import mongoose from "mongoose";
-// import Album from "./Album.js"
 const Schema = mongoose.Schema
 
 let Artist = new Schema({
-  name: String,
-  artistImg: String,
-  genre: [String],
+  _id: {type: String},
+  name: {type: String},
+  artistImg: {type: String},
+  genre: [{type: String}],
   albums: [{
-    title: String,
-    albumCover: String,
-    songs: [String],
-    year: Number
+    type: Schema.Types.ObjectId, ref: "albums"
   }]
 })
 

@@ -1,338 +1,62 @@
 [
   {
+    "_id": "63657068a3acd2f3d5e77ed3",
     "name": "Nesta",
     "artistImg": "https://kazimagazine.com/wp-content/uploads/2021/03/Bkr2Go_JSXkKqHYYkAA3HJ-rkzTP7xBAFk7-FNe-D6DGhs03Ug-izb4RFC6E5zThAyAC_smhBNgyOtK4GF4YCO4ORQkGTktcRK4vk5hrsvn9Bao7p7HCPkOzEZsx9sfcVAbbUtPX.png",
     "genre": ["R&B", "Soul"],
-    "albums": [
-      {
-        "title": "Hope It Gets Better",
-        "albumCover": "https://m.media-amazon.com/images/I/41EH1ezsEwL._UXNaN_FMjpg_QL85_.jpg",
-        "songs": [
-          "The Alchemist",
-          "Brag",
-          "Coming Over",
-          "Poison",
-          "Hope It Gets Better",
-          "City of Angels (with Mereba)",
-          "Already There",
-          "Proper",
-          "Jah Knows (feat. Kyra)",
-          "More Than I Deserve",
-          "Mama Don't Cry"
-        ],
-        "year": "2022"
-      }
-    ]
+    "albums": ["63657068a3acd2f3d5e77ed4"]
   },
   {
+    "_id": "63657068a3acd2f3d5e77ed5",
     "name": "O'Death",
     "artistImg": "https://i.scdn.co/image/e044f7fba852d8c50949ce8dd5c7d27a9f4f4e34",
     "genre": ["Alternative", "Rock"],
-    "albums": [
-      {
-        "title": "Outside",
-        "albumCover": "https://f4.bcbits.com/img/0006693756_10.jpg",
-        "songs": [
-          "Bugs",
-          "Ghost Head",
-          "Alamar",
-          "Black Dress",
-          "Ourselves",
-          "Look at the Sun",
-          "Howling Through",
-          "Don't Come Back",
-          "Pushing Out",
-          "Back of the Garden",
-          "Already There",
-          "The Lake Departed"
-        ],
-        "year": "2011"
-      },
-      {
-        "title": "Head Home",
-        "albumCover": "https://upload.wikimedia.org/wikipedia/en/b/b2/Head_Home_Album_Art.jpeg",
-        "songs": [
-          "Down to Rest",
-          "Adelita",
-          "Allie Mae Reynolds",
-          "The Crab Apple Switch",
-          "O Lee O",
-          "Busted Old Church",
-          "Travelin Man",
-          "Face Mask",
-          "Only Daughter",
-          "Ground Stump",
-          "Rickety Fence Teeth",
-          "TAll the World",
-          "Jesus Look Down",
-          "Nathaniel",
-          "Gas Can Row"
-        ],
-        "year": "2007"
-      }
-    ]
+    "albums": ["63657068a3acd2f3d5e77ed6", "63657068a3acd2f3d5e77ed7"]
   },
   {
+    "_id": "63657068a3acd2f3d5e77ed8",
     "name": "Bad Brains",
     "artistImg": "https://i.scdn.co/image/ab6761610000e5ebbd42597d561d676f5311586a",
     "genre": ["Punk"],
-    "albums": [
-      {
-        "title": "Bad Brains",
-        "albumCover": "https://m.media-amazon.com/images/I/61t07H6wpzL._SY580_.jpg",
-        "songs": [
-          "Sailin' On",
-          "Don't Need It",
-          "Attitude",
-          "The Regulator",
-          "Banned in D.C.",
-          "Jah Calling",
-          "Supertouch/Shitfit",
-          "Leaving Babylon",
-          "F.V.K. (Fearless Vampire Killers)",
-          "I",
-          "Big Take Over",
-          "Pay to Cum",
-          "Right Brigade",
-          "I Luv I Jah"
-        ],
-        "year": "1982"
-      },
-      {
-        "title": "I Against I",
-        "albumCover": "https://upload.wikimedia.org/wikipedia/en/5/58/BadBrainsIAgainstI.jpg",
-        "songs": [
-          "Intro",
-          "I Against I",
-          "House of Suffering",
-          "Re-Ignition",
-          "Secret 77",
-          "Let Me Help",
-          "She's Calling You",
-          "Sacred Love",
-          "Hired Gun",
-          "Return to Heaven"
-        ],
-        "year": "1986"
-      }
-    ]
+    "albums": ["63657068a3acd2f3d5e77ed9", "63657068a3acd2f3d5e77eda"]
   },
   {
+    "_id": "63657068a3acd2f3d5e77edb",
     "name": "Faith No More",
     "artistImg": "https://i.scdn.co/image/85715abdbcc9f1326915a891360d8cedb09d9379",
     "genre": ["Hard Rock"],
-    "albums": [
-      {
-        "title": "The Real Thing",
-        "albumCover": "https://m.media-amazon.com/images/I/51wtgnybnaL._SY580_.jpg",
-        "songs": [
-          "From Out of Nowhere",
-          "Epic",
-          "Falling to Pieces",
-          "Surprise! You're Dead!",
-          "Zombie Eaters",
-          "The Real Thing",
-          "Underwater Love",
-          "The Morning After",
-          "Woodpecker from Mars",
-          "War Pigs",
-          "Edge of the World"
-        ],
-        "year": "1989"
-      }
-    ]
+    "albums": ["63657068a3acd2f3d5e77edc"]
   },
   {
+    "_id": "63657068a3acd2f3d5e77edd",
     "name": "The Brazen Youth",
     "artistImg": "https://static.stereogum.com/uploads/2022/08/The-Brazen-Youth-1660832653.jpg",
     "genre": ["Alternative", "Rock"],
     "albums": [
-      {
-        "title": "The Ever Dying Bristlecone Man",
-        "albumCover": "https://i.scdn.co/image/ab67616d0000b273bebd412bc505ef805676ba62",
-        "songs": [
-          "Human Beings Are the Only Creatures Capable of Dehydrating with a Glass of Water in Front of Them",
-          "Emma",
-          "Cry for the Aliens",
-          "Let Us Be Alone Again",
-          "Air is Water",
-          "I Call to You in Dreams",
-          "You'll Be Forever Nameless (Pts. 1 & 2",
-          "You'll Be Forever Nameless (Pts. 3-5",
-          "Center of Gravity",
-          "Reassess",
-          "Pleo"
-        ],
-        "year": "2016"
-      },
-      {
-        "title": "Primitive Initiative",
-        "albumCover": "https://i.scdn.co/image/ab67616d0000b273fec6937786ace29f5a9b83ec",
-        "songs": [
-          "You Could Not Provoke Me",
-          "Welcome to the Primitive Initiative!",
-          "Birds Inside My Attic",
-          "Back of My Mind",
-          "Death:Posed",
-          "So Young Then",
-          "My Feet My Sun",
-          "Riverbeds",
-          "Burn Slowly/I Love You",
-          "Figure in the Field"
-        ],
-        "year": "2018"
-      },
-      {
-        "title": "Eagle, Idaho",
-        "albumCover": "https://cloudinary-cdn.ffm.to/s--Xw5imGOm--/f_jpg/https%3A%2F%2Fimagestore.ffm.to%2Flink%2F5f8b2914083b3742d19c96516c4fd83d.jpeg",
-        "songs": [
-          "Spirit Finds Yours",
-          "If hese Wild Winds Are Yours (feat. Alix Page)",
-          "So Afraid",
-          "Changing",
-          "Open Outside",
-          "C0w",
-          "1TL2DU4 (feat. girlpuppy)",
-          "Saving",
-          "Who Told You That You Were Naked?",
-          "Linger There",
-          "I Love It There",
-          "Cloud Parade",
-          "Hometown",
-          "You Started Loving"
-        ],
-        "year": "2022"
-      }
+      "63657068a3acd2f3d5e77ede",
+      "63657068a3acd2f3d5e77edf",
+      "63657068a3acd2f3d5e77ee0"
     ]
   },
   {
+    "_id": "63657068a3acd2f3d5e77ee1",
     "name": "The Gaslight Anthem",
     "artistImg": "https://www.godisinthetvzine.co.uk/wp-content/uploads/2012/07/Gaslight-Anthem.jpg",
     "genre": ["Rock", "Alternative", "Punk"],
-    "albums": [
-      {
-        "title": "Get Hurt (deluxe Version)",
-        "albumCover": "https://musicnerd.ca/wp-content/uploads/2014/08/The-Gaslight-Anthem.jpg",
-        "songs": [
-          "Stay Vicious",
-          "1,000 Years",
-          "Get Hurt",
-          "Stray Paper",
-          "Helter Skeleton",
-          "Underneath the Ground",
-          "Rollin' and Tumblin'",
-          "Red Violins",
-          "Selected Poems",
-          "Selected Poems",
-          "Ain't That a Shame",
-          "Break Your Heart",
-          "Dark Place",
-          "Sweet Morphine",
-          "Mama's Boys",
-          "Halloween",
-          "Have Mercy"
-        ],
-        "year": 2014
-      },
-      {
-        "title": "The B-Sides",
-        "albumCover": "https://images-na.ssl-images-amazon.com/images/I/51Eyire9SML.jpg",
-        "songs": [
-          "She Loves You",
-          "The '59 Sound(Acoustic)",
-          "State of Love and Trust(Live)",
-          "Tumbling Dice",
-          "The Queen of Lower Chelsea (Acoustic)",
-          "Songs for Teenagers",
-          "Great Expectations(Acoustic)",
-          "Antonia Jane (Acoustic)",
-          "American Slang (Acoustic)",
-          "Boxer (Acoustic)",
-          "Once Upon a Time"
-        ],
-        "year": 2014
-      }
-    ]
+    "albums": ["63657068a3acd2f3d5e77ee2", "63657068a3acd2f3d5e77ee3"]
   },
   {
+    "_id": "63657068a3acd2f3d5e77ee4",
     "name": "BTS",
     "artist img": "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/cdn/4b9e997d-c375-4801-8794-d0891147c69c/08eb1c61-b91a-4e0c-8c04-43de51b77dbc.jpg",
     "genre": "K-Pop",
-    "albums": [
-      {
-        "title": "BE",
-        "albumCover": "https://soundvapors.com/wp-content/uploads/2020/11/BTS-BE-1.jpg",
-        "songs": [
-          "Life Goes On",
-          "Fly To My Room",
-          "Blue & Grey",
-          "Skit",
-          "Telepathy",
-          "Dis-Ease",
-          "Stay",
-          "Dynamite"
-        ],
-        "year": 2020
-      },
-      {
-        "title": "Face Yourself",
-        "albumCover": "https://farm5.staticflickr.com/4624/40448353781_9eb0863fbd_o.jpg",
-        "songs": [
-          "INTRO: Ringwanderung",
-          "Best Of Me (Japanese Version)",
-          "Blood Sweat & Tears (Japanese Version)",
-          "DNA (Japanese Verison)",
-          "Not Today(Japanese Version)",
-          "MIC Drop(Japanese Version",
-          "Don't Leave Me",
-          "Go Go (Japanese Version)",
-          "Crystal Snow",
-          "Spring Day (Japanese Version)",
-          "Let Go",
-          "OUTRO: Crack"
-        ],
-        "year": 2018
-      }
-    ]
+    "albums": ["63657068a3acd2f3d5e77ee5", "63657068a3acd2f3d5e77ee6"]
   },
   {
+    "_id": "63657068a3acd2f3d5e77ee7",
     "name": "Little Mix",
     "artist img": "https://wallsdesk.com/wp-content/uploads/2016/11/little-mix-Photos.jpg",
     "genre": "Pop",
-    "albums": [
-      {
-        "title": "Confetti (Expanded Edition",
-        "albumCover": "https://diy-magazine.s3.amazonaws.com/d/diy/Artists/L/Little-Mix/_1500x1000_crop_center-center_75_none/Confetti_Album_Cover.jpg",
-        "songs": [
-          "Break Up Song",
-          "Holiday",
-          "Sweet Melody",
-          "Confetti",
-          "Happiness",
-          "Not a Pop Song",
-          "Nothing But My Feelings",
-          "Gloves Up",
-          "A Mess (Happy 4 U)",
-          "My Love Won't Let You Down",
-          "Rendezvous",
-          "If You Want My Love",
-          "Breathe",
-          "No Time For Tears",
-          "Bounce Back",
-          "One I've Been Missing",
-          "Break Up Song (Nathan Dawe Remix)",
-          "Break Up Song (Steve Viod Remix)",
-          "Break Up Song (Acoustic Version)",
-          "Holiday (MNEK Remix)",
-          "Holiday (220 KId Remix)",
-          "Holiday(Frank Walker Remix)",
-          "Holiday (Acoustic Version)",
-          "Sweet Meledy (PS1 Remix)",
-          "Sweet Meledy (Alle Farben Remix)",
-          "Sweet Meledy (Acoustic Version)"
-        ],
-        "year": 2020
-      }
-    ]
+    "albums": ["63657068a3acd2f3d5e77ee8"]
   }
 ]

@@ -1,12 +1,14 @@
-// import { Router } from "express";
-// import * as controllers from "../controllers/albums.js"
+import { Router } from "express";
+import * as controllers from "../controllers/albums.js"
 
-// const router = Router()
+const router = Router()
 
-// router.get("/albums/:title", controllers.getAlbums)
-// router.get("/album/:title", controllers.getAlbumTitle)
-// router.post("/album/:title", controllers.createAlbum)
-// router.put("/album/:title", controllers.updateAlbumTitle)
-// router.delete("/album/:title", controllers.deleteAlbumName)
+router.get("/", controllers.getAlbums)
+router.get("/albums/:title", controllers.getAlbumTitle)
+router.post("/albums", controllers.createAlbum)
+router.put("/:id", controllers.updateAlbum)
+router.put("/albums/:title", controllers.updateAlbumTitle)
+router.delete("/:id", controllers.deleteAlbumTitle)
+router.delete("/albums/:title", controllers.deleteAlbumTitle)
 
-// export default router
+export default router
