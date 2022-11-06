@@ -93,5 +93,12 @@
     "artistImg": "https://i.redd.it/o1h0rcdjbsj51.jpg",
     "genre": ["Pop", "Electronic"],
     "albums": ["63657068a3acd2f3d5e77ef5", "63657068a3acd2f3d5e77ef6"]
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ef7",
+    "name": "Peter McPoland",
+    "artistImg": "https://i.scdn.co/image/ab6761610000e5eb3fc5bdc27ce4fcf4b0b547a9",
+    "genre": ["Alternative"],
+    "albums": ["63657068a3acd2f3d5e77ef8"]
   }
 ]
