@@ -511,5 +511,246 @@
       "News At 9"
     ],
     "year": 2022
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77efa",
+    "title": "Sides (Acoustic)",
+    "artist": "Emily King",
+    "albumCover": "https://i.scdn.co/image/ab67616d0000b273cf31c7be8a9eea69d98c37c4",
+    "songs": [
+      "Radio",
+      "Can't Hold Me",
+      "Teach You (feat. Sara Bareilles)",
+      "No More Room",
+      "Down",
+      "Distance",
+      "Already There",
+      "The Switch",
+      "Forgiveness",
+      "Sides"
+    ],
+    "year": 2020
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77efb",
+    "title": "Seven",
+    "artist": "Emily King",
+    "albumCover": "https://i.scdn.co/image/ab67616d0000b273f381df93250f49848e1454b5",
+    "songs": [
+      "Down",
+      "No More Room",
+      "Ever After",
+      "Radio",
+      "Georgia",
+      "Sides",
+      "Every Part"
+    ],
+    "year": 2011
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77efc",
+    "title": "East Side Sorry",
+    "artist": "Emily King",
+    "albumCover": "http://www.intermix.org.uk/images/all/news/news_310706_03_large.jpg",
+    "songs": [
+      "Walk in My Shoes",
+      "Alright",
+      "Hold Me",
+      "You Can Get By",
+      "Colorblind",
+      "U & I",
+      "Ain't No Sunshine",
+      "E Meledy",
+      "It Was You",
+      "Moon",
+      "Business Man",
+      "Never Be Lonely",
+      "Ride With Me"
+    ],
+    "year": 2017
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77efd",
+    "title": "Rock for Light",
+    "artist": "Bad Brains",
+    "albumCover": "https://upload.wikimedia.org/wikipedia/en/9/9d/Rock_for_Light.jpg",
+    "songs": [
+      "Coptic Times",
+      "Attitude",
+      "We Will Not",
+      "Sailin' On",
+      "Rally 'Round Jah Throne",
+      "Right Brigade",
+      "F.V.K",
+      "Riot Squad",
+      "The Meek Shall Inherit the Earth",
+      "Joshua's Song",
+      "I + I Survive",
+      "Destroy Babylon",
+      "Rock for Light",
+      "At the Movies",
+      "Big Takeover",
+      "Banned in D.C.",
+      "Supertouch",
+      "I",
+      "How Low Can a Punk Get",
+      "Jam"
+    ],
+    "year": 1983
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77efe",
+    "title": "Rise",
+    "artist": "Bad Brains",
+    "albumCover": "https://upload.wikimedia.org/wikipedia/en/9/99/Rise_%28Bad_Brains_album_-_cover_art%29.jpg",
+    "songs": [
+      "Rise",
+      "Miss Freedom",
+      "Unidentified",
+      "Love Is the Answer",
+      "Free",
+      "Hair",
+      "Coming in Numbers",
+      "Yes Jah",
+      "Take Your Time",
+      "Peace of Mind",
+      "Without You",
+      "Outro"
+    ],
+    "year": 1993
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ff0",
+    "title": "Chapters",
+    "artist": "Kneebody",
+    "albumCover": "https://writteninmusic.com/wp-content/uploads/2019/10/cover-kneebody-chapters.jpg",
+    "songs": [
+      "Spectra",
+      "What's My Name (feat. Michael Mayo)",
+      "A Seaworthy Native",
+      "Wounds Let in the Light (feat Becca Stevens)",
+      "Chapters",
+      "Hearts Won't Break (feat. Josh Dion)",
+      "Ombré",
+      "The Trip (feat. Gerald Clayton)",
+      "When It All Comes Down (feat. Gretchen Parlato)",
+      "The Non-Profit Prince of Lexington"
+    ],
+    "year": 2019
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ff1",
+    "title": "Kneedelus",
+    "artist": "Kneebody",
+    "albumCover": "https://cdn.albumoftheyear.org/album/2015/45966-kneedelus.jpg",
+    "songs": [
+      "Loops",
+      "The Hole",
+      "Drum Battle",
+      "They Are We",
+      "Platforming",
+      "Home",
+      "Move",
+      "Thought Not",
+      "Rounds",
+      "Not Love"
+    ],
+    "year": 2015
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ff3",
+    "title": "Everything's Beautiful",
+    "artist": "Robert Glasper",
+    "albumCover": "https://writteninmusic.com/wp-content/uploads/2016/08/cover-miles-davis-robert-glasper-everything-is-beautiful-1024x1024.jpg",
+    "songs": [
+      "Talking Shit",
+      "Ghetto Walkin'",
+      "They Can't Hold Me Down",
+      "Maiysha (So Long)",
+      "Violets",
+      "Little Church",
+      "Silence Is the Way",
+      "Song for Selim",
+      "Milestones",
+      "I'm Leaving You",
+      "Right on Brotha"
+    ],
+    "year": 2016
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ff4",
+    "title": "Black Radio III",
+    "artist": "Robert Glasper",
+    "albumCover": "https://target.scene7.com/is/image/Target/GUEST_04b609c1-dd39-4124-9c54-8aca1ceffb5c?wid=800&hei=800&qlt=80&fmt=pjpeg",
+    "songs": [
+      "In Tune",
+      "Black Superhero",
+      "Shine",
+      "Why We Speak",
+      "Over",
+      "Better Than I Imagined",
+      "Everybody Wants To Rule The World",
+      "Out of My Hands",
+      "Why We Speak",
+      "Everybody Love",
+      "Forever",
+      "Bright Lights"
+    ],
+    "year": 2022
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ff6",
+    "title": "Sawayama",
+    "artist": "Rina Sawayama",
+    "albumCover": "https://tse1.mm.bing.net/th?id=OIP.K4DNhOwKOx8_GH2GmNmxeAHaHa&pid=Api&P=0",
+    "songs": [
+      "Dynasty",
+      "Xs",
+      "Stfu!",
+      "Comme Des Garçons (Like the Boys)",
+      "Akasaka Sad",
+      "Paradisin'",
+      "Love Me 4 Me",
+      "Bad Friend",
+      "F**k This World (Interlude)",
+      "Who's Gonna Save U Now?",
+      "Tokyo Love Hotel",
+      "Chosen Family",
+      "Snakeskin"
+    ],
+    "year": 2020
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ff7",
+    "title": "Rina",
+    "artist": "Rina Sawayama",
+    "albumCover": "https://www.sputnikmusic.com/images/albums/266518.jpg",
+    "songs": [
+      "Ordinary Superstar",
+      "Take Me as I Am",
+      "10-20-40",
+      "Tunnel Vision (feat. Shamir)",
+      "Time Out - Interlude",
+      "Alterlife",
+      "Through the Wire - Interlude",
+      "Cyber Stockholm Syndrome"
+    ],
+    "year": 2017
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ff9",
+    "title": "ALL OUT",
+    "artist": "K/DA",
+    "albumCover": "http://i0.hdslb.com/bfs/archive/cd38072087d125e61d22dcabad75b6dc927aa473.jpg",
+    "songs": ["THE BADDEST", "MORE", "VILLAIN", "DRUM GO DUM", "I'LL SHOW YOU"],
+    "year": 2020
+  },
+  {
+    "_id": "63657068a3acd2f3d5e77ffa",
+    "title": "POP/STARS",
+    "artist": "K/DA",
+    "albumCover": "https://upload.wikimedia.org/wikipedia/en/0/01/KDA_PopStars.jpg",
+    "songs": ["POP/STARS"],
+    "year": 2018
   }
 ]
