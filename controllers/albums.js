@@ -14,7 +14,7 @@ export const getAlbums = async (req, res) => {
 export const getAlbum = async (req, res) => {
   try {
     const { id } = req.params
-    const album = await Album.findById(id)
+    const album = await Album.findById(id).populate("artist")
 
     if (album) {
       return res.json(album)
@@ -31,7 +31,7 @@ export const getAlbum = async (req, res) => {
 export const getAlbumTitle = async (req, res) => {
   try {
     const { title } = req.params
-    const album = await Album.find({title: title})
+    const album = await Album.find({title: title}).populate("artist")
 
     if (album) {
       return res.json(album)
