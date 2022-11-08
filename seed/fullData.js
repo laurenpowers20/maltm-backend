@@ -1,8 +1,6 @@
 import db from "../db/connection.js";
 import Album from "../models/Album.js";
 import Artist from "../models/Artist.js";
-import artists from "./artists.json" assert { type: "json" };
-import albums from "./albums.json" assert { type: "json" };
 
 const insertData = async () => {
   //reset database
@@ -11,197 +9,197 @@ const insertData = async () => {
 
   // ARTISTS
 
-  const nesta = {
+  const nesta = new Artist({
     name: "Nesta",
     artistImg:
       "https://kazimagazine.com/wp-content/uploads/2021/03/Bkr2Go_JSXkKqHYYkAA3HJ-rkzTP7xBAFk7-FNe-D6DGhs03Ug-izb4RFC6E5zThAyAC_smhBNgyOtK4GF4YCO4ORQkGTktcRK4vk5hrsvn9Bao7p7HCPkOzEZsx9sfcVAbbUtPX.png",
     genre: ["R&B", "Soul"],
     albums: [],
-  };
+  });
 
   await nesta.save();
 
-  const oDeath = {
+  const oDeath = new Artist({
     name: "O'Death",
     artistImg:
       "https://i.scdn.co/image/e044f7fba852d8c50949ce8dd5c7d27a9f4f4e34",
     genre: ["Alternative", "Rock"],
     albums: [],
-  };
+  });
 
   await oDeath.save();
 
-  const badBrains = {
+  const badBrains = new Artist({
     name: "Bad Brains",
     artistImg:
       "https://i.scdn.co/image/ab6761610000e5ebbd42597d561d676f5311586a",
     genre: ["Punk"],
     albums: [],
-  };
+  });
 
   await badBrains.save();
 
-  const faithNoMore = {
+  const faithNoMore = new Artist({
     _id: "63657068a3acd2f3d5e77edb",
     name: "Faith No More",
     artistImg:
       "https://i.scdn.co/image/85715abdbcc9f1326915a891360d8cedb09d9379",
     genre: ["Rock"],
     albums: [],
-  };
+  });
 
   await faithNoMore.save();
 
-  const brazenYouth = {
+  const brazenYouth = new Artist({
     name: "The Brazen Youth",
     artistImg:
       "https://static.stereogum.com/uploads/2022/08/The-Brazen-Youth-1660832653.jpg",
     genre: ["Alternative", "Rock"],
     albums: [],
-  };
+  });
 
   await brazenYouth.save();
 
-  const gasLight = {
+  const gasLight = new Artist({
     name: "The Gaslight Anthem",
     artistImg:
       "https://www.godisinthetvzine.co.uk/wp-content/uploads/2012/07/Gaslight-Anthem.jpg",
     genre: ["Rock", "Alternative", "Punk"],
     albums: [],
-  };
+  });
 
   await gasLight.save();
 
-  const bts = {
+  const bts = new Artist({
     name: "BTS",
     artistImg:
       "https://i.scdn.co/image/ab6761610000e5eb5704a64f34fe29ff73ab56bb",
     genre: ["K-Pop"],
     albums: [],
-  };
+  });
 
   await bts.save();
 
-  const littleMix = {
+  const littleMix = new Artist({
     name: "Little Mix",
     artistImg:
       "https://i.scdn.co/image/ab67616d0000b273bd48bc2c835f2a97393d3251",
     genre: ["Pop"],
     albums: [],
-  };
+  });
 
   await littleMix.save();
 
-  const backToYours = {
+  const backToYours = new Artist({
     name: "Back to Yours",
     artistImg:
       "https://risingartistsblog.com/wp-content/uploads/2022/05/back2yours.jpg",
     genre: ["Rock"],
     albums: [],
-  };
+  });
 
   await backToYours.save();
 
-  const mfDoom = {
+  const mfDoom = new Artist({
     name: "MF DOOM",
     artistImg:
       "https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2021/10/madison-grosvenor-mf-doom-arts.png?fit=2400%2C1600&ssl=1",
     genre: ["Hip-Hop", "Rap"],
     albums: [],
-  };
+  });
 
   await mfDoom.save();
 
-  const catStevens = {
+  const catStevens = new Artist({
     name: "Cat Stevens",
     artistImg: "https://i.ytimg.com/vi/bP6B9HttRI8/hqdefault.jpg",
     genre: ["Pop", "Rock"],
     albums: [],
-  };
+  });
 
   await catStevens.save();
 
-  const jeremyZucker = {
+  const jeremyZucker = new Artist({
     name: "Jeremy Zucker",
     artistImg:
       "https://upload.wikimedia.org/wikipedia/commons/d/da/Jeremy_Zucker_Supercuts.png",
     genre: ["Pop"],
     albums: [],
-  };
+  });
 
   await jeremyZucker.save();
 
-  const brakence = {
+  const brakence = new Artist({
     name: "brakence",
     artistImg: "https://i.redd.it/o1h0rcdjbsj51.jpg",
     genre: ["Pop", "Electronic"],
     albums: [],
-  };
+  });
 
   await brakence.save();
 
-  const peterMcPoland = {
+  const peterMcPoland = new Artist({
     name: "Peter McPoland",
     artistImg:
       "https://i.scdn.co/image/ab6761610000e5eb3fc5bdc27ce4fcf4b0b547a9",
     genre: ["Alternative"],
     albums: [],
-  };
+  });
 
   await peterMcPoland.save();
 
-  const emilyKing = {
+  const emilyKing = new Artist({
     name: "Emily King",
     artistImg:
       "https://s3.amazonaws.com/media.thecrimson.com/photos/2020/03/27/012708_1343612.png",
     genre: ["R&B", "Soul"],
     albums: [],
-  };
+  });
 
   await emilyKing.save();
 
-  const kneebody = {
+  const kneebody = new Artist({
     name: "Kneebody",
     artistImg:
       "https://tse1.mm.bing.net/th?id=OIP.kCh-3qd7TGu-TaMLm28ubAHaDy&pid=Api&P=0",
     genre: ["Jazz"],
     albums: [],
-  };
+  });
 
   await kneebody.save();
 
-  const robertG = {
+  const robertG = new Artist({
     name: "Robert Glasper",
     artistImg: "http://www.brooklynvegan.com/files/2018/10/robert-glasper.jpg",
     genre: ["R&B", "Soul"],
     albums: [],
-  };
+  });
 
   await robertG.save();
 
-  const rinaSaway = {
+  const rinaSaway = new Artist({
     name: "Rina Sawayama",
     artistImg:
       "https://tse1.mm.bing.net/th?id=OIP.K4DNhOwKOx8_GH2GmNmxeAHaHa&pid=Api&P=0",
     genre: ["Pop", "Alternative"],
     albums: [],
-  };
+  });
 
   await rinaSaway.save();
 
-  const kda = {
+  const kda = new Artist({
     name: "K/DA",
     artistImg:
       "https://lh3.googleusercontent.com/X76ESmZOYVjP0WmS3XJUBbNZjszC5Tx0TA6RD-YMvZXua8Us9RxS1E_FgLyzPKuHgDTqAQ5jAe5k03QTKei4xR0s_3RMg6hQlA=w960-rj-nu-e365",
     genre: ["K-Pop", "EDM"],
     albums: [],
-  };
+  });
 
   await kda.save();
 
   // ALBUMS
 
-  const hopeItGetsBetter = {
+  const hopeItGetsBetter = new Album({
     title: "Hope It Gets Better",
     artist: nesta,
     albumCover:
@@ -220,12 +218,12 @@ const insertData = async () => {
       "Mama Don't Cry",
     ],
     year: 2022,
-  };
+  });
   await hopeItGetsBetter.save();
   nesta.albums.push(hopeItGetsBetter);
   await nesta.save();
 
-  const outside = {
+  const outside = new Album({
     title: "Outside",
     artist: oDeath,
     albumCover: "https://f4.bcbits.com/img/0006693756_10.jpg",
@@ -244,9 +242,9 @@ const insertData = async () => {
       "The Lake Departed",
     ],
     year: 2011,
-  };
+  });
 
-  const headHome = {
+  const headHome = new Album({
     title: "Head Home",
     artist: oDeath,
     albumCover:
@@ -269,14 +267,14 @@ const insertData = async () => {
       "Gas Can Row",
     ],
     year: 2007,
-  };
+  });
 
-  await outside.save()
-  await headHome.save()
-  oDeath.albums.push(outside, headHome)
-  await oDeath.save()
+  await outside.save();
+  await headHome.save();
+  oDeath.albums.push(outside, headHome);
+  await oDeath.save();
 
-  const badBrainsAlbum = {
+  const badBrainsAlbum = new Album({
     title: "Bad Brains",
     artist: badBrains,
     albumCover: "https://m.media-amazon.com/images/I/61t07H6wpzL._SY580_.jpg",
@@ -297,10 +295,9 @@ const insertData = async () => {
       "I Luv I Jah",
     ],
     year: 1982,
-  };
+  });
 
-
-  const iAgainstI = {
+  const iAgainstI = new Album({
     title: "I Against I",
     artist: badBrains,
     albumCover:
@@ -318,8 +315,9 @@ const insertData = async () => {
       "Return to Heaven",
     ],
     year: 1986,
-  };
-  const rockForLight = {
+  });
+
+  const rockForLight = new Album({
     title: "Rock for Light",
     artist: badBrains,
     albumCover:
@@ -347,8 +345,9 @@ const insertData = async () => {
       "Jam",
     ],
     year: 1983,
-  };
-  const rise = {
+  });
+
+  const rise = new Album({
     title: "Rise",
     artist: badBrains,
     albumCover:
@@ -368,16 +367,16 @@ const insertData = async () => {
       "Outro",
     ],
     year: 1993,
-  };
+  });
 
-  await badBrainsAlbum.save()
-  await iAgainstI.save()
-  await rockForLight.save()
-  await rise.save()
-  badBrains.albums.push(badBrainsAlbum, iAgainstI, rockForLight, rise)
-  await badBrains.save()
+  await badBrainsAlbum.save();
+  await iAgainstI.save();
+  await rockForLight.save();
+  await rise.save();
+  badBrains.albums.push(badBrainsAlbum, iAgainstI, rockForLight, rise);
+  await badBrains.save();
 
-  const realThing = {
+  const realThing = new Album({
     title: "The Real Thing",
     artist: faithNoMore,
     albumCover: "https://m.media-amazon.com/images/I/51wtgnybnaL._SY580_.jpg",
@@ -395,13 +394,13 @@ const insertData = async () => {
       "Edge of the World",
     ],
     year: 1989,
-  };
+  });
 
-  await realThing.save()
-  faithNoMore.albums.push(realThing)
-  await faithNoMore.save()
+  await realThing.save();
+  faithNoMore.albums.push(realThing);
+  await faithNoMore.save();
 
-  const bristleconeMan = {
+  const bristleconeMan = new Album({
     title: "The Ever Dying Bristlecone Man",
     artist: brazenYouth,
     albumCover:
@@ -420,8 +419,8 @@ const insertData = async () => {
       "Pleo",
     ],
     year: 2016,
-  };
-  const primInit = {
+  });
+  const primInit = new Album({
     title: "Primitive Initiative",
     artist: brazenYouth,
     albumCover:
@@ -439,8 +438,8 @@ const insertData = async () => {
       "Figure in the Field",
     ],
     year: 2018,
-  };
-  const eagleIdaho = {
+  });
+  const eagleIdaho = new Album({
     title: "Eagle, Idaho",
     artist: brazenYouth,
     albumCover:
@@ -462,15 +461,15 @@ const insertData = async () => {
       "You Started Loving",
     ],
     year: 2022,
-  };
+  });
 
-  await bristleconeMan.save()
-  await primInit.save()
-  await eagleIdaho.save()
-  brazenYouth.albums.push(bristleconeMan, primInit, eagleIdaho)
-  await brazenYouth.save()
+  await bristleconeMan.save();
+  await primInit.save();
+  await eagleIdaho.save();
+  brazenYouth.albums.push(bristleconeMan, primInit, eagleIdaho);
+  await brazenYouth.save();
 
-  const getHurt = {
+  const getHurt = new Album({
     title: "Get Hurt (deluxe Version)",
     artist: gasLight,
     albumCover:
@@ -495,8 +494,8 @@ const insertData = async () => {
       "Have Mercy",
     ],
     year: 2014,
-  };
-  const bSides = {
+  });
+  const bSides = new Album({
     title: "The B-Sides",
     artist: gasLight,
     albumCover:
@@ -515,14 +514,14 @@ const insertData = async () => {
       "Once Upon a Time",
     ],
     year: 2014,
-  };
+  });
 
-  await getHurt.save()
-  await bSides.save()
-  gasLight.albums.push(getHurt, bSides)
-  await gasLight.save()
+  await getHurt.save();
+  await bSides.save();
+  gasLight.albums.push(getHurt, bSides);
+  await gasLight.save();
 
-  const be = {
+  const be = new Album({
     title: "BE",
     artist: bts,
     albumCover:
@@ -538,8 +537,8 @@ const insertData = async () => {
       "Dynamite",
     ],
     year: 2020,
-  };
-  const faceYourself = {
+  });
+  const faceYourself = new Album({
     title: "Face Yourself",
     artist: bts,
     albumCover:
@@ -559,14 +558,14 @@ const insertData = async () => {
       "OUTRO: Crack",
     ],
     year: 2018,
-  };
+  });
 
-  await be.save()
-  await faceYourself.save()
-  bts.albums.push(be, faceYourself)
-  await bts.save()
+  await be.save();
+  await faceYourself.save();
+  bts.albums.push(be, faceYourself);
+  await bts.save();
 
-  const confetti = {
+  const confetti = new Album({
     title: "Confetti (Expanded Edition)",
     artist: littleMix,
     albumCover:
@@ -600,13 +599,13 @@ const insertData = async () => {
       "Sweet Melody (Acoustic Version)",
     ],
     year: 2020,
-  };
+  });
 
-  await confetti.save()
-  littleMix.albums.push(confetti)
-  await littleMix.save()
-  
-  const whereAreWeGoing = {
+  await confetti.save();
+  littleMix.albums.push(confetti);
+  await littleMix.save();
+
+  const whereAreWeGoing = new Album({
     title: "Where Are We Going",
     artist: backToYours,
     albumCover:
@@ -627,13 +626,13 @@ const insertData = async () => {
       "Merry Christmas and Good Night (Bonus Track)",
     ],
     year: 2020,
-  };
+  });
 
-  await whereAreWeGoing.save()
-  backToYours.albums.push(whereAreWeGoing)
-  await backToYours.save()
+  await whereAreWeGoing.save();
+  backToYours.albums.push(whereAreWeGoing);
+  await backToYours.save();
 
-  const mmFood = {
+  const mmFood = new Album({
     title: "MM..FOOD (Deluxe Edition)",
     artist: mfDoom,
     albumCover: "https://upload.wikimedia.org/wikipedia/en/8/8a/Mmfood.jpg",
@@ -656,8 +655,8 @@ const insertData = async () => {
       "Hoe Cakes (Jake One Remix)",
     ],
     year: 2004,
-  };
-  const mouseAndMask = {
+  });
+  const mouseAndMask = new Album({
     title: "The Mouse & the Mask",
     artist: mfDoom,
     albumCover: "https://upload.wikimedia.org/wikipedia/en/1/1e/Dangerdoom.jpg",
@@ -680,14 +679,14 @@ const insertData = async () => {
       "Space Ho's (Madlib Remix)",
     ],
     year: 2005,
-  };
+  });
 
-  await mmFood.save()
-  await mouseAndMask.save()
-  mfDoom.albums.push(mmFood, mouseAndMask)
-  await mfDoom.save()
+  await mmFood.save();
+  await mouseAndMask.save();
+  mfDoom.albums.push(mmFood, mouseAndMask);
+  await mfDoom.save();
 
-  const teaForTillerman = {
+  const teaForTillerman = new Album({
     title: "Tea for the Tillerman",
     artist: catStevens,
     albumCover:
@@ -706,8 +705,8 @@ const insertData = async () => {
       "Tea for the Tillerman",
     ],
     year: 1970,
-  };
-  const teaserAndFirecat = {
+  });
+  const teaserAndFirecat = new Album({
     title: "Teaser And The Firecat",
     artist: catStevens,
     albumCover: "https://m.media-amazon.com/images/I/51mblTANuLL._SY580_.jpg",
@@ -724,14 +723,14 @@ const insertData = async () => {
       "Peace Train",
     ],
     year: 1971,
-  };
+  });
 
-  await teaForTillerman.save()
-  await teaserAndFirecat.save()
-  catStevens.albums.push(teaForTillerman, teaserAndFirecat)
-  await catStevens.save()
+  await teaForTillerman.save();
+  await teaserAndFirecat.save();
+  catStevens.albums.push(teaForTillerman, teaserAndFirecat);
+  await catStevens.save();
 
-  const motions = {
+  const motions = new Album({
     title: "Motions",
     artist: jeremyZucker,
     albumCover:
@@ -747,8 +746,8 @@ const insertData = async () => {
       "Upside Down (feat. Daniel James)",
     ],
     year: 2017,
-  };
-  const loveIsNotDying = {
+  });
+  const loveIsNotDying = new Album({
     title: "love is not dying (Deluxe Version)",
     artist: jeremyZucker,
     albumCover:
@@ -771,14 +770,14 @@ const insertData = async () => {
       "comethru (bonus track)",
     ],
     year: 2020,
-  };
+  });
 
-  await motions.save()
-  await loveIsNotDying.save()
-  jeremyZucker.albums.push(motions, loveIsNotDying)
-  await jeremyZucker.save()
+  await motions.save();
+  await loveIsNotDying.save();
+  jeremyZucker.albums.push(motions, loveIsNotDying);
+  await jeremyZucker.save();
 
-  const hypnagogia = {
+  const hypnagogia = new Album({
     title: "Hypnagogia",
     artist: brakence,
     albumCover: "https://f4.bcbits.com/img/a3118353569_10.jpg",
@@ -793,8 +792,8 @@ const insertData = async () => {
       "Warm",
     ],
     year: 2018,
-  };
-  const punk2 = {
+  });
+  const punk2 = new Album({
     title: "punk2",
     artist: brakence,
     albumCover:
@@ -813,14 +812,14 @@ const insertData = async () => {
       "sauceintherough (bonus track)",
     ],
     year: 2020,
-  };
+  });
 
-  await hypnagogia.save()
-  await punk2.save()
-  brakence.albums.push(hypnagogia, punk2)
-  await brakence.save()
+  await hypnagogia.save();
+  await punk2.save();
+  brakence.albums.push(hypnagogia, punk2);
+  await brakence.save();
 
-  const slowDown = {
+  const slowDown = new Album({
     title: "Slow Down",
     artist: peterMcPoland,
     albumCover: "https://i1.sndcdn.com/artworks-isPTorb8b4MH-0-t500x500.jpg",
@@ -834,12 +833,12 @@ const insertData = async () => {
       "News At 9",
     ],
     year: 2022,
-  };
-  await slowDown.save()
-  peterMcPoland.albums.push(slowDown)
-  await peterMcPoland.save()
+  });
+  await slowDown.save();
+  peterMcPoland.albums.push(slowDown);
+  await peterMcPoland.save();
 
-  const sides = {
+  const sides = new Album({
     title: "Sides (Acoustic)",
     artist: emilyKing,
     albumCover:
@@ -857,8 +856,8 @@ const insertData = async () => {
       "Sides",
     ],
     year: 2020,
-  };
-  const seven = {
+  });
+  const seven = new Album({
     title: "Seven",
     artist: emilyKing,
     albumCover:
@@ -873,8 +872,8 @@ const insertData = async () => {
       "Every Part",
     ],
     year: 2011,
-  };
-  const eastSideStory = {
+  });
+  const eastSideStory = new Album({
     title: "East Side Story",
     artist: emilyKing,
     albumCover:
@@ -895,15 +894,15 @@ const insertData = async () => {
       "Ride With Me",
     ],
     year: 2017,
-  };
+  });
 
-  await sides.save()
-  await seven.save()
-  await eastSideStory.save()
-  emilyKing.albums.push(sides, seven, eastSideStory)
-  await emilyKing.save()
+  await sides.save();
+  await seven.save();
+  await eastSideStory.save();
+  emilyKing.albums.push(sides, seven, eastSideStory);
+  await emilyKing.save();
 
-  const chapters = {
+  const chapters = new Album({
     title: "Chapters",
     artist: kneebody,
     albumCover:
@@ -921,8 +920,8 @@ const insertData = async () => {
       "The Non-Profit Prince of Lexington",
     ],
     year: 2019,
-  };
-  const kneedelus = {
+  });
+  const kneedelus = new Album({
     title: "Kneedelus",
     artist: kneebody,
     albumCover: "https://cdn.albumoftheyear.org/album/2015/45966-kneedelus.jpg",
@@ -939,14 +938,14 @@ const insertData = async () => {
       "Not Love",
     ],
     year: 2015,
-  };
+  });
 
-  await chapters.save()
-  await kneedelus.save()
-  kneebody.albums.push(chapters, kneedelus)
-  await kneebody.save()
+  await chapters.save();
+  await kneedelus.save();
+  kneebody.albums.push(chapters, kneedelus);
+  await kneebody.save();
 
-  const everythingsBeautiful = {
+  const everythingsBeautiful = new Album({
     title: "Everything's Beautiful",
     artist: robertG,
     albumCover:
@@ -965,8 +964,8 @@ const insertData = async () => {
       "Right on Brotha",
     ],
     year: 2016,
-  };
-  const blackRadioIII = {
+  });
+  const blackRadioIII = new Album({
     title: "Black Radio III",
     artist: robertG,
     albumCover:
@@ -986,14 +985,14 @@ const insertData = async () => {
       "Bright Lights",
     ],
     year: 2022,
-  };
+  });
 
-  await everythingsBeautiful.save()
-  await blackRadioIII.save()
-  robertG.albums.push(everythingsBeautiful, blackRadioIII)
-  await robertG.save()
+  await everythingsBeautiful.save();
+  await blackRadioIII.save();
+  robertG.albums.push(everythingsBeautiful, blackRadioIII);
+  await robertG.save();
 
-  const sawayama = {
+  const sawayama = new Album({
     title: "Sawayama",
     artist: rinaSaway,
     albumCover:
@@ -1014,8 +1013,8 @@ const insertData = async () => {
       "Snakeskin",
     ],
     year: 2020,
-  };
-  const rina = {
+  });
+  const rina = new Album({
     title: "Rina",
     artist: rinaSaway,
     albumCover: "https://www.sputnikmusic.com/images/albums/266518.jpg",
@@ -1030,38 +1029,34 @@ const insertData = async () => {
       "Cyber Stockholm Syndrome",
     ],
     year: 2017,
-  };
+  });
 
-  await sawayama.save()
-  await rina.save()
-  rinaSaway.albums.push(sawayama, rina)
-  await rinaSaway.save()
+  await sawayama.save();
+  await rina.save();
+  rinaSaway.albums.push(sawayama, rina);
+  await rinaSaway.save();
 
-  const allOut = {
+  const allOut = new Album({
     title: "ALL OUT",
     artist: kda,
     albumCover:
       "https://upload.wikimedia.org/wikipedia/en/c/cb/KDA_ALL_OUT.jpg",
     songs: ["THE BADDEST", "MORE", "VILLAIN", "DRUM GO DUM", "I'LL SHOW YOU"],
     year: 2020,
-  };
-  const popStars = {
+  });
+  const popStars = new Album({
     title: "POP/STARS",
     artist: kda,
     albumCover:
       "https://upload.wikimedia.org/wikipedia/en/0/01/KDA_PopStars.jpg",
     songs: ["POP/STARS"],
     year: 2018,
-  };
+  });
 
-  await allOut.save()
-  await popStars.save()
-  kda.albums.push(allOut, popStars)
-  await kda.save()
-
-  //insert data
-  await Artist.create(artists);
-  await Album.create(albums);
+  await allOut.save();
+  await popStars.save();
+  kda.albums.push(allOut, popStars);
+  await kda.save();
 
   //close db connection (doesn't need await)
   await db.close();
