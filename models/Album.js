@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 const Schema = mongoose.Schema
 
 let Album = new Schema({
-  _id: {type: String},
   title: {type: String},
   artist: {type: String},
   albumCover: {type: String},

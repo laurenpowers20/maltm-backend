@@ -1,148 +1,117 @@
 [
   {
-    "_id": "63657068a3acd2f3d5e77ed3",
     "name": "Nesta",
     "artistImg": "https://kazimagazine.com/wp-content/uploads/2021/03/Bkr2Go_JSXkKqHYYkAA3HJ-rkzTP7xBAFk7-FNe-D6DGhs03Ug-izb4RFC6E5zThAyAC_smhBNgyOtK4GF4YCO4ORQkGTktcRK4vk5hrsvn9Bao7p7HCPkOzEZsx9sfcVAbbUtPX.png",
     "genre": ["R&B", "Soul"],
-    "albums": ["63657068a3acd2f3d5e77ed4"]
+    "albums": ["636aa8da635600a9d73a19b4"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ed5",
     "name": "O'Death",
     "artistImg": "https://i.scdn.co/image/e044f7fba852d8c50949ce8dd5c7d27a9f4f4e34",
     "genre": ["Alternative", "Rock"],
-    "albums": ["63657068a3acd2f3d5e77ed6", "63657068a3acd2f3d5e77ed7"]
+    "albums": ["636aa8da635600a9d73a19b5", "636aa8da635600a9d73a19b6"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ed8",
     "name": "Bad Brains",
     "artistImg": "https://i.scdn.co/image/ab6761610000e5ebbd42597d561d676f5311586a",
     "genre": ["Punk"],
-    "albums": [
-      "63657068a3acd2f3d5e77ed9",
-      "63657068a3acd2f3d5e77eda",
-      "63657068a3acd2f3d5e77efd",
-      "63657068a3acd2f3d5e77efe"
-    ]
+    "albums": ["636aa8da635600a9d73a19b7", "636aa8da635600a9d73a19b8", "636aa8da635600a9d73a19cf", "636aa8da635600a9d73a19d0"]
   },
   {
     "_id": "63657068a3acd2f3d5e77edb",
     "name": "Faith No More",
     "artistImg": "https://i.scdn.co/image/85715abdbcc9f1326915a891360d8cedb09d9379",
-    "genre": ["Hard Rock"],
-    "albums": ["63657068a3acd2f3d5e77edc"]
+    "genre": ["Rock"],
+    "albums": ["636aa8da635600a9d73a19b9"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77edd",
     "name": "The Brazen Youth",
     "artistImg": "https://static.stereogum.com/uploads/2022/08/The-Brazen-Youth-1660832653.jpg",
     "genre": ["Alternative", "Rock"],
-    "albums": [
-      "63657068a3acd2f3d5e77ede",
-      "63657068a3acd2f3d5e77edf",
-      "63657068a3acd2f3d5e77ee0"
-    ]
+    "albums": ["636aa8da635600a9d73a19ba", "636aa8da635600a9d73a19bb", "636aa8da635600a9d73a19bc"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ee1",
     "name": "The Gaslight Anthem",
     "artistImg": "https://www.godisinthetvzine.co.uk/wp-content/uploads/2012/07/Gaslight-Anthem.jpg",
     "genre": ["Rock", "Alternative", "Punk"],
-    "albums": ["63657068a3acd2f3d5e77ee2", "63657068a3acd2f3d5e77ee3"]
+    "albums": ["636aa8da635600a9d73a19be", "636aa8da635600a9d73a19bd"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ee4",
     "name": "BTS",
     "artistImg": "https://i.scdn.co/image/ab6761610000e5eb5704a64f34fe29ff73ab56bb",
-    "genre": "K-Pop",
-    "albums": ["63657068a3acd2f3d5e77ee5", "63657068a3acd2f3d5e77ee6"]
+    "genre": ["K-Pop"],
+    "albums": ["636aa8da635600a9d73a19c0", "636aa8da635600a9d73a19bf"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ee7",
     "name": "Little Mix",
     "artistImg": "https://i.scdn.co/image/ab67616d0000b273bd48bc2c835f2a97393d3251",
-    "genre": "Pop",
-    "albums": ["63657068a3acd2f3d5e77ee8"]
+    "genre": ["Pop"],
+    "albums": ["636aa8da635600a9d73a19c1"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ee9",
     "name": "Back to Yours",
     "artistImg": "https://risingartistsblog.com/wp-content/uploads/2022/05/back2yours.jpg",
     "genre": ["Rock"],
-    "albums": ["63657068a3acd2f3d5e77eea"]
+    "albums": ["636aa8da635600a9d73a19c2"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77eeb",
     "name": "MF DOOM",
     "artistImg": "https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2021/10/madison-grosvenor-mf-doom-arts.png?fit=2400%2C1600&ssl=1",
     "genre": ["Hip-Hop", "Rap"],
-    "albums": ["63657068a3acd2f3d5e77eec", "63657068a3acd2f3d5e77eed"]
+    "albums": ["636aa8da635600a9d73a19c3", "636aa8da635600a9d73a19c4"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77eee",
     "name": "Cat Stevens",
     "artistImg": "https://i.ytimg.com/vi/bP6B9HttRI8/hqdefault.jpg",
     "genre": ["Pop", "Rock"],
-    "albums": ["63657068a3acd2f3d5e77eef", "63657068a3acd2f3d5e77ef0"]
+    "albums": ["636aa8da635600a9d73a19c5", "636aa8da635600a9d73a19c6"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ef1",
     "name": "Jeremy Zucker",
     "artistImg": "https://upload.wikimedia.org/wikipedia/commons/d/da/Jeremy_Zucker_Supercuts.png",
     "genre": ["Pop"],
-    "albums": ["63657068a3acd2f3d5e77ef2", "63657068a3acd2f3d5e77ef3"]
+    "albums": ["636aa8da635600a9d73a19c7", "636aa8da635600a9d73a19c8"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ef4",
     "name": "brakence",
     "artistImg": "https://i.redd.it/o1h0rcdjbsj51.jpg",
     "genre": ["Pop", "Electronic"],
-    "albums": ["63657068a3acd2f3d5e77ef5", "63657068a3acd2f3d5e77ef6"]
+    "albums": ["636aa8da635600a9d73a19c9", "636aa8da635600a9d73a19ca"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ef7",
     "name": "Peter McPoland",
     "artistImg": "https://i.scdn.co/image/ab6761610000e5eb3fc5bdc27ce4fcf4b0b547a9",
     "genre": ["Alternative"],
-    "albums": ["63657068a3acd2f3d5e77ef8"]
+    "albums": ["636aa8da635600a9d73a19cb"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ef9",
     "name": "Emily King",
     "artistImg": "https://s3.amazonaws.com/media.thecrimson.com/photos/2020/03/27/012708_1343612.png",
     "genre": ["R&B", "Soul"],
-    "albums": [
-      "63657068a3acd2f3d5e77efa",
-      "63657068a3acd2f3d5e77efb",
-      "63657068a3acd2f3d5e77efc"
-    ]
+    "albums": ["636aa8da635600a9d73a19cc", "636aa8da635600a9d73a19ce", "636aa8da635600a9d73a19cd"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77eff",
     "name": "Kneebody",
     "artistImg": "https://tse1.mm.bing.net/th?id=OIP.kCh-3qd7TGu-TaMLm28ubAHaDy&pid=Api&P=0",
     "genre": ["Jazz"],
-    "albums": ["63657068a3acd2f3d5e77ff0", "63657068a3acd2f3d5e77ff1"]
+    "albums": ["636aa8da635600a9d73a19d1", "636aa8da635600a9d73a19d2"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ff2",
     "name": "Robert Glasper",
     "artistImg": "http://www.brooklynvegan.com/files/2018/10/robert-glasper.jpg",
     "genre": ["R&B", "Soul"],
-    "albums": ["63657068a3acd2f3d5e77ff3", "63657068a3acd2f3d5e77ff4"]
+    "albums": ["636aa8da635600a9d73a19d3", "636aa8da635600a9d73a19d4"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ff5",
     "name": "Rina Sawayama",
     "artistImg": "https://tse1.mm.bing.net/th?id=OIP.K4DNhOwKOx8_GH2GmNmxeAHaHa&pid=Api&P=0",
     "genre": ["Pop", "Alternative"],
-    "albums": ["63657068a3acd2f3d5e77ff6", "63657068a3acd2f3d5e77ff7"]
+    "albums": ["636aa8da635600a9d73a19d5", "636aa8da635600a9d73a19d6"]
   },
   {
-    "_id": "63657068a3acd2f3d5e77ff8",
     "name": "K/DA",
     "artistImg": "https://lh3.googleusercontent.com/X76ESmZOYVjP0WmS3XJUBbNZjszC5Tx0TA6RD-YMvZXua8Us9RxS1E_FgLyzPKuHgDTqAQ5jAe5k03QTKei4xR0s_3RMg6hQlA=w960-rj-nu-e365",
     "genre": ["K-Pop", "EDM"],
-    "albums": ["63657068a3acd2f3d5e77ff9", "63657068a3acd2f3d5e77ffa"]
+    "albums": ["636aa8da635600a9d73a19d7", "636aa8da635600a9d73a19d8"]
   }
 ]
