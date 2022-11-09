@@ -7,7 +7,8 @@ let Artist = new Schema({
   genre: [{type: String}],
   albums: [{
     type: Schema.Types.ObjectId, ref: "albums"
-  }]
+  }],
+  bio: {type: String}
 })
 
 export default mongoose.model("artists", Artist)
