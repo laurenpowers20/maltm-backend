@@ -3,9 +3,9 @@ import Album from "../models/Album.js";
 import Artist from "../models/Artist.js";
 
 const insertData = async () => {
-  //reset database
+
   await db.dropDatabase();
-  // await Character.deleteMany({})
+
 
   // ARTISTS
 
@@ -216,6 +216,7 @@ const insertData = async () => {
 
   await kda.save();
 
+  
   // ALBUMS
 
   const hopeItGetsBetter = new Album({
@@ -1077,7 +1078,7 @@ const insertData = async () => {
   kda.albums.push(allOut, popStars);
   await kda.save();
 
-  //close db connection (doesn't need await)
+
   await db.close();
 };
 
