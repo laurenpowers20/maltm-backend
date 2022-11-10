@@ -6,8 +6,7 @@ let Artist = new Schema({
   artistImg: {type: String},
   genre: [{type: String}],
   albums: [{
-    type: Schema.Types.ObjectId, ref: "albums"
-  }],
+    type: Schema.Types.ObjectId, ref: "albums"}],
   bio: {type: String}
 })
 
