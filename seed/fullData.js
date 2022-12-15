@@ -3,9 +3,7 @@ import Album from "../models/Album.js";
 import Artist from "../models/Artist.js";
 
 const insertData = async () => {
-
   await db.dropDatabase();
-
 
   // ARTISTS
 
@@ -15,7 +13,7 @@ const insertData = async () => {
       "https://kazimagazine.com/wp-content/uploads/2021/03/Bkr2Go_JSXkKqHYYkAA3HJ-rkzTP7xBAFk7-FNe-D6DGhs03Ug-izb4RFC6E5zThAyAC_smhBNgyOtK4GF4YCO4ORQkGTktcRK4vk5hrsvn9Bao7p7HCPkOzEZsx9sfcVAbbUtPX.png",
     genre: ["R&B", "Soul"],
     albums: [],
-    bio: "With a dynamic musical family background from Jamaica, Queens-based, alternative R&B artist Nesta has strong artistic roots originating from the inspiration of Nat King Cole, Ms. Lauryn Hill, Sizzla, Sampha, and The Dream. He found his sound by studying the various influences which led him to experiment with production software and various instruments including the drums. Although proven to be musically gifted, it wasn't until 2012 when his friends noticed his unique vocals and urged him to take singing more seriously. Filled with reggae and old-school energy, he fully embraces his eccentric sound through songwriting and producing."
+    bio: "With a dynamic musical family background from Jamaica, Queens-based, alternative R&B artist Nesta has strong artistic roots originating from the inspiration of Nat King Cole, Ms. Lauryn Hill, Sizzla, Sampha, and The Dream. He found his sound by studying the various influences which led him to experiment with production software and various instruments including the drums. Although proven to be musically gifted, it wasn't until 2012 when his friends noticed his unique vocals and urged him to take singing more seriously. Filled with reggae and old-school energy, he fully embraces his eccentric sound through songwriting and producing.",
   });
 
   await nesta.save();
@@ -26,7 +24,7 @@ const insertData = async () => {
       "https://i.scdn.co/image/e044f7fba852d8c50949ce8dd5c7d27a9f4f4e34",
     genre: ["Alternative", "Rock"],
     albums: [],
-    bio: "O’Death is an American alternative country band from Brooklyn, New York. They combine elements of folk, bluegrass, punk, metal, gothic and Americana music."
+    bio: "O’Death is an American alternative country band from Brooklyn, New York. They combine elements of folk, bluegrass, punk, metal, gothic and Americana music.",
   });
 
   await oDeath.save();
@@ -37,7 +35,7 @@ const insertData = async () => {
       "https://i.scdn.co/image/ab6761610000e5ebbd42597d561d676f5311586a",
     genre: ["Punk"],
     albums: [],
-    bio: "Bad Brains are an American rock band formed in Washington, D.C. in 1976. Originally a jazz fusion band under the name Mind Power, they are widely regarded as pioneers of hardcore punk, though the band's members have objected to the use of this term to describe their music."
+    bio: "Bad Brains are an American rock band formed in Washington, D.C. in 1976. Originally a jazz fusion band under the name Mind Power, they are widely regarded as pioneers of hardcore punk, though the band's members have objected to the use of this term to describe their music.",
   });
 
   await badBrains.save();
@@ -49,7 +47,7 @@ const insertData = async () => {
       "https://i.scdn.co/image/85715abdbcc9f1326915a891360d8cedb09d9379",
     genre: ["Rock"],
     albums: [],
-    bio: "Faith No More is an American rock band from San Francisco, California, formed in 1979. Before settling on the current name in July 1983, the band performed under the names Sharp Young Men and later Faith No Man."
+    bio: "Faith No More is an American rock band from San Francisco, California, formed in 1979. Before settling on the current name in July 1983, the band performed under the names Sharp Young Men and later Faith No Man.",
   });
 
   await faithNoMore.save();
@@ -60,7 +58,7 @@ const insertData = async () => {
       "https://static.stereogum.com/uploads/2022/08/The-Brazen-Youth-1660832653.jpg",
     genre: ["Alternative", "Rock"],
     albums: [],
-    bio: "The Brazen Youth are a Connecticut based band formed by childhood friends, Nick Lussier and Charlie Dahlke, and then eventually joined by Vermont native Micah Rubin. Their music is heavily influenced by the small towns they grew up in, creating a unique alternative sound   With elements of rock, folk, and indie music."
+    bio: "The Brazen Youth are a Connecticut based band formed by childhood friends, Nick Lussier and Charlie Dahlke, and then eventually joined by Vermont native Micah Rubin. Their music is heavily influenced by the small towns they grew up in, creating a unique alternative sound   With elements of rock, folk, and indie music.",
   });
 
   await brazenYouth.save();
@@ -71,7 +69,7 @@ const insertData = async () => {
       "https://www.godisinthetvzine.co.uk/wp-content/uploads/2012/07/Gaslight-Anthem.jpg",
     genre: ["Rock", "Alternative", "Punk"],
     albums: [],
-    bio: "The Gaslight Anthem is an American rock band from New Brunswick, New Jersey, formed in 2006. The band consists of Brian Fallon, Alex Rosamilia, Alex Levine, and Benny Horowitz."
+    bio: "The Gaslight Anthem is an American rock band from New Brunswick, New Jersey, formed in 2006. The band consists of Brian Fallon, Alex Rosamilia, Alex Levine, and Benny Horowitz.",
   });
 
   await gasLight.save();
@@ -82,7 +80,7 @@ const insertData = async () => {
       "https://i.scdn.co/image/ab6761610000e5eb5704a64f34fe29ff73ab56bb",
     genre: ["K-Pop"],
     albums: [],
-    bio: "BTS, also known as the Bangtan Boys, is a South Korean boy band formed in 2010 and debuting in 2013 under Big Hit Entertainment. The septet—consisting of members Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook—co-writes and co-produces much of their own material."
+    bio: "BTS, also known as the Bangtan Boys, is a South Korean boy band formed in 2010 and debuting in 2013 under Big Hit Entertainment. The septet—consisting of members Jin, Suga, J-Hope, RM, Jimin, V, and Jungkook—co-writes and co-produces much of their own material.",
   });
 
   await bts.save();
@@ -93,7 +91,7 @@ const insertData = async () => {
       "https://i.scdn.co/image/ab67616d0000b273bd48bc2c835f2a97393d3251",
     genre: ["Pop"],
     albums: [],
-    bio: "Little Mix are a British girl group, composed of group members Leigh-Anne Pinnock, Jade Thirlwall, and Perrie Edwards. Jesy Nelson was also originally part of the group before she left in 2020. After becoming the first group to win the British version of The X Factor, the group signed with Syco Music in 2011."
+    bio: "Little Mix are a British girl group, composed of group members Leigh-Anne Pinnock, Jade Thirlwall, and Perrie Edwards. Jesy Nelson was also originally part of the group before she left in 2020. After becoming the first group to win the British version of The X Factor, the group signed with Syco Music in 2011.",
   });
 
   await littleMix.save();
@@ -104,7 +102,7 @@ const insertData = async () => {
       "https://risingartistsblog.com/wp-content/uploads/2022/05/back2yours.jpg",
     genre: ["Rock"],
     albums: [],
-    bio: "Back to Yours is a five-piece indie-rock, alternative-pop band formed by a group of friends - usually. The band - Aiden Jones (bass), Bryce Kassalow (guitar & vox), Daniel Luttway (keys & vox), Jiaan Mansuri (drums), and Tommy Levin (guitar & vox) - began playing together at Georgetown University during the spring of 2018. What began with Beatles covers and backyard parties has continued to evolve, as the band continues to write and perform in major cities up-and-down the east coast and midwest."
+    bio: "Back to Yours is a five-piece indie-rock, alternative-pop band formed by a group of friends - usually. The band - Aiden Jones (bass), Bryce Kassalow (guitar & vox), Daniel Luttway (keys & vox), Jiaan Mansuri (drums), and Tommy Levin (guitar & vox) - began playing together at Georgetown University during the spring of 2018. What began with Beatles covers and backyard parties has continued to evolve, as the band continues to write and perform in major cities up-and-down the east coast and midwest.",
   });
 
   await backToYours.save();
@@ -115,7 +113,7 @@ const insertData = async () => {
       "https://i0.wp.com/www.michigandaily.com/wp-content/uploads/2021/10/madison-grosvenor-mf-doom-arts.png?fit=2400%2C1600&ssl=1",
     genre: ["Hip-Hop", "Rap"],
     albums: [],
-    bio: "MF DOOM or simply DOOM, was a British-American rapper and record producer. Noted for his intricate wordplay, signature metal mask, and “supervillain” stage persona who became a major figure of underground hip hop and alternative hip hop in the 2000s."
+    bio: "MF DOOM or simply DOOM, was a British-American rapper and record producer. Noted for his intricate wordplay, signature metal mask, and “supervillain” stage persona who became a major figure of underground hip hop and alternative hip hop in the 2000s.",
   });
 
   await mfDoom.save();
@@ -125,7 +123,7 @@ const insertData = async () => {
     artistImg: "https://i.ytimg.com/vi/bP6B9HttRI8/hqdefault.jpg",
     genre: ["Pop", "Rock"],
     albums: [],
-    bio: "Yusuf Islam, commonly known by his stage names Cat Stevens, Yusuf, and Yusuf / Cat Stevens, is a British singer-songwriter and multi-instrumentalist. His musical style consists of folk, pop, rock, and, later in his career, Islamic music. He returned to making secular music in 2006."
+    bio: "Yusuf Islam, commonly known by his stage names Cat Stevens, Yusuf, and Yusuf / Cat Stevens, is a British singer-songwriter and multi-instrumentalist. His musical style consists of folk, pop, rock, and, later in his career, Islamic music. He returned to making secular music in 2006.",
   });
 
   await catStevens.save();
@@ -136,7 +134,7 @@ const insertData = async () => {
       "https://upload.wikimedia.org/wikipedia/commons/d/da/Jeremy_Zucker_Supercuts.png",
     genre: ["Pop"],
     albums: [],
-    bio: "Jeremy Zucker is an American singer-songwriter, best known for his songs 'comethru', 'you were good to me', and 'all the kids are depressed'. Since he first began publishing music in 2015, Zucker has released multiple EPs and two full-length albums, love is not dying and CRUSHER."
+    bio: "Jeremy Zucker is an American singer-songwriter, best known for his songs 'comethru', 'you were good to me', and 'all the kids are depressed'. Since he first began publishing music in 2015, Zucker has released multiple EPs and two full-length albums, love is not dying and CRUSHER.",
   });
 
   await jeremyZucker.save();
@@ -146,7 +144,7 @@ const insertData = async () => {
     artistImg: "https://i.redd.it/o1h0rcdjbsj51.jpg",
     genre: ["Pop", "Electronic"],
     albums: [],
-    bio: "brakence is Randy Findell, a singer and songwriter born on December 17, 2001. He went to Ohio State University, but dropped out at just 17 years old, which he chronicles in his song “Dropout,” which features Blackbear. His sound has frequently been compared to the music of Jeremy Zucker, another young musician who produces his own albums and singles."
+    bio: "brakence is Randy Findell, a singer and songwriter born on December 17, 2001. He went to Ohio State University, but dropped out at just 17 years old, which he chronicles in his song “Dropout,” which features Blackbear. His sound has frequently been compared to the music of Jeremy Zucker, another young musician who produces his own albums and singles.",
   });
 
   await brakence.save();
@@ -157,7 +155,7 @@ const insertData = async () => {
       "https://i.scdn.co/image/ab6761610000e5eb3fc5bdc27ce4fcf4b0b547a9",
     genre: ["Alternative"],
     albums: [],
-    bio: "Peter McPoland is an American singer, songwriter, and musician. In 2021, McPoland was signed to Columbia Records. On May 13, 2022, McPoland released his debut EP, Slow Down."
+    bio: "Peter McPoland is an American singer, songwriter, and musician. In 2021, McPoland was signed to Columbia Records. On May 13, 2022, McPoland released his debut EP, Slow Down.",
   });
 
   await peterMcPoland.save();
@@ -168,7 +166,7 @@ const insertData = async () => {
       "https://s3.amazonaws.com/media.thecrimson.com/photos/2020/03/27/012708_1343612.png",
     genre: ["R&B", "Soul"],
     albums: [],
-    bio: "Emily King is an American singer and songwriter. She started her career in 2004 and her first album East Side Story was released in August 2007. In December 2007, King was listed as a Grammy nominee for Best Contemporary R&B Album."
+    bio: "Emily King is an American singer and songwriter. She started her career in 2004 and her first album East Side Story was released in August 2007. In December 2007, King was listed as a Grammy nominee for Best Contemporary R&B Album.",
   });
 
   await emilyKing.save();
@@ -179,7 +177,7 @@ const insertData = async () => {
       "https://tse1.mm.bing.net/th?id=OIP.kCh-3qd7TGu-TaMLm28ubAHaDy&pid=Api&P=0",
     genre: ["Jazz"],
     albums: [],
-    bio: "Kneebody is an American band formed in 2001, consisting of Adam Benjamin on keyboards, Shane Endsley on trumpet, Ben Wendel on tenor saxophone, and Nate Wood on bass guitar and drums."
+    bio: "Kneebody is an American band formed in 2001, consisting of Adam Benjamin on keyboards, Shane Endsley on trumpet, Ben Wendel on tenor saxophone, and Nate Wood on bass guitar and drums.",
   });
 
   await kneebody.save();
@@ -189,7 +187,7 @@ const insertData = async () => {
     artistImg: "http://www.brooklynvegan.com/files/2018/10/robert-glasper.jpg",
     genre: ["R&B", "Soul"],
     albums: [],
-    bio: "Robert Andre Glasper is an American pianist, record producer, songwriter, and musical arranger with a career that bridges several different musical and artistic genres, mostly centered on jazz. To date, Glasper has won four Grammy Awards and received nine nominations across eight categories."
+    bio: "Robert Andre Glasper is an American pianist, record producer, songwriter, and musical arranger with a career that bridges several different musical and artistic genres, mostly centered on jazz. To date, Glasper has won four Grammy Awards and received nine nominations across eight categories.",
   });
 
   await robertG.save();
@@ -200,7 +198,7 @@ const insertData = async () => {
       "https://tse1.mm.bing.net/th?id=OIP.K4DNhOwKOx8_GH2GmNmxeAHaHa&pid=Api&P=0",
     genre: ["Pop", "Alternative"],
     albums: [],
-    bio: "Rina Sawayama is a Japanese–British singer-songwriter and model. Born in Niigata, Japan, she emigrated to London with her parents at age five. She is known for her musical versatility and has been labeled a 'musical chameleon'. In 2017, she self-released her debut extended play, Rina."
+    bio: "Rina Sawayama is a Japanese–British singer-songwriter and model. Born in Niigata, Japan, she emigrated to London with her parents at age five. She is known for her musical versatility and has been labeled a 'musical chameleon'. In 2017, she self-released her debut extended play, Rina.",
   });
 
   await rinaSaway.save();
@@ -211,12 +209,11 @@ const insertData = async () => {
       "https://lh3.googleusercontent.com/X76ESmZOYVjP0WmS3XJUBbNZjszC5Tx0TA6RD-YMvZXua8Us9RxS1E_FgLyzPKuHgDTqAQ5jAe5k03QTKei4xR0s_3RMg6hQlA=w960-rj-nu-e365",
     genre: ["K-Pop", "EDM"],
     albums: [],
-    bio: "K/DA is a virtual K-pop girl group consisting of four themed versions of League of Legends characters Ahri, Akali, Evelynn and Kai'Sa."
+    bio: "K/DA is a virtual K-pop girl group consisting of four themed versions of League of Legends characters Ahri, Akali, Evelynn and Kai'Sa.",
   });
 
   await kda.save();
 
-  
   // ALBUMS
 
   const hopeItGetsBetter = new Album({
@@ -1077,7 +1074,6 @@ const insertData = async () => {
   await popStars.save();
   kda.albums.push(allOut, popStars);
   await kda.save();
-
 
   await db.close();
 };
