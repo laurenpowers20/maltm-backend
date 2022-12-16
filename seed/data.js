@@ -5,7 +5,7 @@ import artists from "./artists.json" assert { type: "json" };
 import albums from "./albums.json" assert { type: "json" };
 
 const insertData = async () => {
-  await db.dropDatabase();
+  await db.deleteMany();
 
   await Artist.create(artists);
   await Album.create(albums);
